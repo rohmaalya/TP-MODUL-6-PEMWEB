@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #ffc0cb, #add8e6); /* Gradasi pink dan biru muda */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kotak {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin: 20px auto; /* Membuat kotak berada di tengah */
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}

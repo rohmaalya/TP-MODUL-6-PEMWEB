@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Modul 6: Javascript & jQuery</title>
+    <!-- Pemanggilan CSS Eksternal -->
+    <link rel="stylesheet" href="style1.css">
+    <script>
+        window.onload = function() {
+            var nama = prompt("Masukkan nama kamu:");
+            var nim = prompt("Masukkan nim kamu:");
+
+            // Jika user mengisi prompt, buat elemen form secara dinamis atau tampilkan form yang ada
+            if ((nama !== null && nama !== "") || (nim !== null && nim !== "")) {
+                var formHtml = `
+                    <h2>Form Identitas Mahasiswa</h2>
+                    <label for="inputNama">Nama</label><br>
+                    <input type="text" id="inputNama" value="${nama !== null ? nama : ''}" readonly><br><br>
+
+                    <label for="inputNim">NIM</label><br>
+                    <input type="text" id="inputNim" value="${nim !== null ? nim : ''}" readonly>
+                `;
+                document.getElementById("formContainer").innerHTML = formHtml;
+                document.getElementById("formContainer").style.display = "block";
+            }
+        };
+    </script>
+</head>
+<body>
+    <!-- Awalnya div ini kosong dan tidak terlihat, jadi layar hanya background kosong -->
+    <div id="formContainer" style="display: none;"></div>
+</body>
+</html>

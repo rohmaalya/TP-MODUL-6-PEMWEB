@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bermain dengan Warna</title>
+    <!-- Pemanggilan jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Pemanggilan CSS Eksternal -->
+    <link rel="stylesheet" href="style2.css">
+    <script>
+        $(document).ready(function() {
+            // Event handler jQuery untuk warna
+            $("#ungu").click(function() {
+                $("#kotak").css("background-color", "purple");
+            });
+            $("#biru").click(function() {
+                $("#kotak").css("background-color", "blue");
+            });
+            $("#hijau").click(function() {
+                $("#kotak").css("background-color", "green");
+            });
+
+            // Event handler untuk sembunyikan & tampilkan kotak
+            $("#sembunyi").click(function() {
+                $("#kotak").hide();
+            });
+            $("#tampil").click(function() {
+                $("#kotak").show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Bermain dengan Warna</h2>
+        
+        <div class="button-group">
+            <button id="ungu">Ungu</button>
+            <button id="biru">Biru</button>
+            <button id="hijau">Hijau</button>
+        </div>
+        
+        <div id="kotak" class="kotak"></div>
+        
+        <div class="button-group">
+            <button id="sembunyi">Sembunyikan Kotak</button>
+            <button id="tampil">Tampilkan Kotak</button>
+        </div>
+    </div>
+</body>
+</html>
