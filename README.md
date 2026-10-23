@@ -1,7 +1,9 @@
 # Tugas Pendahuluan Modul 6 - Pemrograman Web
+**Nama:** Rohma Nur Alya
+**NIM:** 103092400029
 **Topik:** JavaScript dan jQuery  
 **Mata Kuliah:** Pemrograman Web (Ganjil 2026/2027)  
-**Nama:** Rohma Nur Alya
+
 
 ---
 
