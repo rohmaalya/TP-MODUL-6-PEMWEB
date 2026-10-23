@@ -1,8 +1,11 @@
 # Tugas Pendahuluan Modul 6 - Pemrograman Web
 
 **Nama:** Rohma Nur Alya
+
 **NIM:** 103092400029
+
 **Topik:** JavaScript dan jQuery  
+
 **Mata Kuliah:** Pemrograman Web (Ganjil 2026/2027)  
 
 
@@ -10,7 +13,7 @@
 
 ## Jawaban Pertanyaan Teori
 
-### 1. Jelaskan secara singkat apa itu JavaScript dan kegunaannya! [5 Poin]
+### 1. Jelaskan secara singkat apa itu JavaScript dan kegunaannya! 
 **JavaScript** adalah bahasa pemrograman tingkat tinggi yang bersifat *lightweight* dan *interpreted* (dijalankan langsung di browser) yang digunakan untuk membuat halaman web menjadi dinamis dan interaktif.
 
 **Kegunaan JavaScript:**
@@ -21,7 +24,7 @@
 
 ---
 
-### 2. Jelaskan secara singkat apa itu jQuery dan kegunaannya! [5 Poin]
+### 2. Jelaskan secara singkat apa itu jQuery dan kegunaannya! 
 **jQuery** adalah *library* atau pustaka JavaScript yang bersifat *open-source*, dirancang untuk menyederhanakan penulisan skrip JavaScript pada sisi klien (*client-side*). Selogan utama jQuery adalah *"Write less, do more"*.
 
 **Kegunaan jQuery:**
@@ -33,7 +36,7 @@
 
 ---
 
-### 3. Jelaskan perbedaan JavaScript dan jQuery! [10 Poin]
+### 3. Jelaskan perbedaan JavaScript dan jQuery! 
 
 | Karakteristik | JavaScript | jQuery |
 | :--- | :--- | :--- |
@@ -42,9 +45,3 @@
 | **Penggunaan** | Dapat digunakan tanpa dependensi eksternal. | Membutuhkan dependensi file jQuery (CDN atau local file). |
 | **Performa** | Eksekusi lebih cepat karena berjalan langsung di browser tanpa perantara. | Sedikit lebih lambat karena harus memproses pustaka jQuery terlebih dahulu. |
 | **Sintaks Selektor DOM** | Menggunakan `document.getElementById()`, `document.querySelector()`. | Menggunakan selektor singkat `$('selector')`. |
-
----
-
-## Catatan Pengerjaan
-1. **Soal 1 (`soal1.html`):** Implementasi JavaScript `window.onload` & `prompt()` untuk meminta data Nama dan NIM serta memasukkannya ke elemen form.
-2. **Soal 2 (`soal2.html`):** Implementasi jQuery event handler untuk mengubah warna latar belakang objek kotak serta fungsi `hide()` dan `show()`.
